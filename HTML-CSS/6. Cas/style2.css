@@ -1,0 +1,51 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div1 {
+  background-color: #5f9ea0;
+  width: 300px;
+  height: 200px;
+  /* overflow: visible; defaultna vrednost */
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  overflow: auto;
+}
+
+.div2 {
+  background-color: #20e794;
+  width: 300px;
+  height: 250px;
+}
+
+.div2 p {
+  /* font-size: larger; */
+  font-size: 22px;
+  /* text-align: right; */
+  text-align: justify;
+  text-align-last: right;
+}
+
+/* Kontejner sirine 500px, visine 400px, pozadina boja po zelji
+neka se nalazi naslov velicine h2, boje bordo 
+i paragraf od 60karaktera, boje tamno plave, treba biti centriran
+neka bude podesen overflow auto na kontejner, kontejner treba imati klasu
+main. 
+Velicina slova da bude 20px.*/
+
+.main {
+  width: 500px;
+  height: 400px;
+  background-color: #a9a9a9;
+  overflow: auto;
+  font-size: 20px;
+}
+
+.main h2 {
+  color: #8b0000;
+}
+
+.main p {
+  color: #3a3a85;
+  text-align: center;
+}

@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+
+.main {
+  width: 400px;
+  height: 300px;
+  background-color: #6495ed;
+  /* margin: 30px; */
+  /* margin-top: 20px; */
+  /* margin-left: 40px; */
+  /* margin-bottom: 25px; */
+  /* Ako imamo 4 vrednosti za svojstvo margin ili padding. Shvatanje CSSa je sledece: */
+  /* 1. Vrednost se odnosi na margin-top */
+  /* 2. Vrednost se odnosi na margin-right */
+  /* 3. Vrednost se odnosi na margin-bottom */
+  /* 4. Vrednost se odnosi na margin-left */
+  /* margin: 10px 20px 30px 40px; */
+  /* 1. Vrednost se odnosi na margin-top i margin-bottom */
+  /* 2. Vrednost se odnosi na margin-right i margin-left */
+  /* margin: 20px 40px; */
+  /* 1. Vrednost se odnosi na margin-top */
+  /* 2. Vrednost se odnosi na margin-right i margin-left */
+  /* 3. Vrednost se odnosi na margin-bottom */
+  /* margin: 0px 20px 30px 0px; */
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* border: 3px solid #680000;   - obicna linija */
+  /* border: 3px double #680000;  - duplirana linija */
+  /* border: 3px dashed #680000;  - isprekidana linija*/
+  /* border: 3px dotted #680000; */
+  border: 3px solid #680000;
+  /* border-radius: 10px; */
+  /* border-radius: 10px 20px 30px 40px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px 7px 15px;
+  /* padding: 30px; */
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 1);
+  /* box-shadow: -3px -3px 20px rgba(0, 0, 0, 1); - Ako zelimo da se efekat postigne na vrh i levu stranu */
+}
+
+button {
+  padding: 10px;
+  margin-left: 500px;
+}
+
+p {
+  text-align: justify;
+  text-align-last: center;
+  text-indent: 25px;
+}
+
+p:hover {
+  background-color: #cd853f;
+  color: #ffdfe3;
+}
+
+/* Domaci zadatak.
+Odraditi karticu kao sa slike.
+glavni kontejner da ima sirinu 400px, visinu 600px.
+Fotografija da zauzima trecinu glavnog kontejnera.
+Naslov je velicine h1, podnaslov je velicine h3 */

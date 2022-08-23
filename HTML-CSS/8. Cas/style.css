@@ -1,0 +1,53 @@
+.main {
+  margin: 15px;
+  width: 400px;
+  height: 600px;
+  background-color: #77dcf5cc;
+  border-radius: 20px;
+  border: 1px solid #0b0b67;
+  display: inline-block;
+}
+
+.main img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main img:hover {
+  content: url("./newimage.jpg");
+}
+
+.main h1 {
+  text-align: center;
+  /* text-transform: none; defaultna vrednost */
+  /* text-transform: capitalize; */
+  /* text-transform: lowercase; */
+  text-transform: uppercase;
+  font-size: 28px;
+  margin: 15px;
+}
+
+.main h3 {
+  text-transform: capitalize;
+  margin: 25px;
+}
+
+.main p {
+  margin: 15px;
+  text-align: justify;
+  text-indent: 20px;
+  text-align-last: center;
+}
+
+.main p:hover {
+  background-color: #c8c4ff;
+  transition: all 0.4s ease-in-out;
+}
+
+/* .paragraf {
+  width: 200px;
+  display: inline-block;
+} */
