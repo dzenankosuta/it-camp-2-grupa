@@ -1,0 +1,54 @@
+/* 2. nacin primene eksternih stilova */
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+body {
+  font-family: "Kalam", cursive;
+}
+
+.main {
+  margin: 20px auto;
+  padding: 15px;
+  width: 400px;
+  height: 500px;
+  background-color: #bcffe9;
+}
+
+.main h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.main p {
+  text-indent: 15px;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.text-for-icons {
+  padding-left: 5px;
+}
+
+#icon {
+  font-size: 25px;
+  color: #ff0000;
+  background-color: #ffffff;
+}
+
+#icon:nth-of-type(2) {
+  color: #000000;
+  background-color: #bcffe9;
+}
+
+/* Domaci zadatak:
+Karica se nalazi na sredini
+gornje dve ivice su oble,
+donje dve ivice su pod pravim uglom,
+slika da zauzima 1/3 ukupne visine kartice,
+slika predstavlja kucu koja se prodaje.
+Ispod slike se nalazi adresa kuce, 
+ispod adrese se nalazi grad i zemlja (neki podnaslov).
+Nakon tih informacija imamo:
+ikonica spavace sobe,
+kupatila,
+bazen,
+kvadratura kuce.
+*/
