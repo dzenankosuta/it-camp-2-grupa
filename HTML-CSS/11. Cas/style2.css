@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .main:nth-of-type(1) {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+  padding: 20px;
+  overflow: auto;
+}
+
+.main:nth-of-type(2) {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: #ffb0ef;
+}
+
+.main:nth-of-type(3) {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: #535582;
+} */
+
+.main {
+  /* margin: auto; */
+  width: 300px;
+  height: 200px;
+  background-color: #87ceeb;
+  padding: 20px;
+  overflow: hidden;
+  /* display: block; defaultna vrednost za div */
+  /* display: inline; ako je display inline onda gubimo mogusnost definisanja odredjenih stilova,
+  kao sto su width, height, margin, padding,... */
+  display: inline-block;
+}
+
+.main:nth-of-type(2) {
+  background-color: #5d7576;
+  /* display none je jedan od nacina da sakrijemo sadrzaj na stranici */
+  display: none;
+  /* preko visibility hidden ce se sakriti sadrzaj, ali i dalje zauzima prostor na stranici. */
+  /* visibility: hidden; */
+}
+
+.main:nth-of-type(3) {
+  background-color: #ff7f50;
+}
+
+.main p {
+  line-height: 30px;
+}
+
+.second {
+  margin: auto;
+  width: 700px;
+  height: 450px;
+  background-image: url("./back3.png");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: cover;
+}
