@@ -59,8 +59,11 @@
   margin: auto;
   width: 700px;
   height: 450px;
-  background-image: url("./back3.png");
+  background-image: url(./back3.png), url(./back2.jpg);
   background-repeat: no-repeat;
   /* background-size: contain; */
-  background-size: cover;
+  /* background-size: cover; */
+  /*background-size: 100%;  jedna vrednost predstavlja sirinu */
+  /*background-size: 100% 50%;  prva vrednost se odnosi na sirinu, druga na visinu */
+  background-size: 100% 50%, 100% 100%;
 }
