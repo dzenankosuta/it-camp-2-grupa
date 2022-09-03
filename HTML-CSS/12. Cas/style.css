@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kalam", cursive;
+  /* font-size: 0.6cm; */
+  /* font-size: 6mm; */
+  font-size: 16px;
+}
+.main {
+  margin: auto;
+  /* width: 700px; */
+  /* width: 80vw; */
+  /* width: 80vmin; */
+  /* width: 80vmax; */
+  width: 90%;
+  /* width: 10in; */
+  /* height: 300pt; */
+  /* height: 30pc; */
+  height: 60vh;
+  background-color: #7fffd4;
+  font-size: 1.2em;
+}
+
+.child {
+  background-color: #ff7f50;
+  /* font-size: 2em; */
+  font-size: 2rem;
+  width: 50%;
+}
+
+/* Absolute lengths: */
+
+/*  cm - centimeters */
+/*  mm - millimeters */
+/*  in - inches (1 in = 96px) */
+/*  px - pixels*/
+/*  pt - points  */
+/*  pc - picas (1pc = 12 pt) */
+
+/* Relative lengths: */
+
+/* em - Relativan u odnosu na font-size od parent elementa */
+/* rem - Relativan u odnosu na font-size od body - Ne nasledjuje velicinu od svog roditelja */
+/* vw - viewport of width - Relativna u odnosu na sirinu ekrana */
+/* vh - viewport of height - Relativna u odnosu na visinu ekrana */
+/* vmin - viewport of min - Relativna  1% u odnosu na manji deo (sirina ili visina) */
+/* vmax - viewport of max - Relativna  1% u odnosu na veci deo (sirina ili visina) */
+/* % - relativan u odnosu na parent element */
