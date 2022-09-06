@@ -12,8 +12,38 @@ header {
 .img {
   width: 10%;
   height: 90%;
+  margin-left: 2%;
+  margin-top: 0.5%;
 }
 
 .links {
   display: inline-block;
+  margin-left: 15rem;
+}
+
+.links a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #1453ff;
+  padding-right: 0.7rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.links a:hover {
+  padding: 0.5rem;
+  background-color: #7fffd4;
+  border-radius: 10px;
+}
+
+.links a:visited {
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: rgb(47, 89, 75);
+}
+
+.links a:active {
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: #ffffff;
 }
