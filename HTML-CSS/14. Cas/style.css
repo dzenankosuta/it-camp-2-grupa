@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kalam", cursive;
+}
+
+.first {
+  width: 50%;
+  height: 50vh;
+  /* background-color: rgba(0, 76, 143, 0.6); dodat je opacity na background color */
+  background-color: rgb(0, 76, 143);
+  opacity: 0.5; /*  dodat je opacity na ceo sadrzaj kontejnera sa klasom first  */
+}
+
+.second {
+  width: 50%;
+  height: 50vh;
+  background-image: url(./back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.6;
+}
