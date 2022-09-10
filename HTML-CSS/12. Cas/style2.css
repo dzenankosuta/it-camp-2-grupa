@@ -13,6 +13,7 @@ header {
   width: 100vw;
   height: 20vh;
   background-color: #d8bfd8;
+  position: relative;
 }
 
 .img {
@@ -25,6 +26,8 @@ header {
 .links {
   display: inline-block;
   margin-left: 15rem;
+  position: absolute;
+  bottom: 3rem;
 }
 
 .links a {
