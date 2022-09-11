@@ -1,0 +1,71 @@
+body {
+    background-color: #CDE7B0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+header {
+    background-color: #59594a;
+    height: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
+header h1 {
+    font-size: 30px;
+    float: left;
+}
+
+header .child {
+    float: right;
+    position: absolute;
+    top: 1.7em;
+    right: 1em;
+}
+
+.child a {
+    color: rgb(186, 186, 234);
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    width: 70%;
+    float: left;
+    margin-bottom: 60px;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    margin-bottom: 90px;
+}
+
+aside ol li {
+    padding: 3px;
+}
+
+main img {
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 5rem;
+    margin-right: 15px;
+    border-radius: 2rem;
+}
+
+
+footer {
+    clear: both;
+    background-color: #7286a0;
+    padding: 20px;
+    text-align: center;
+}
