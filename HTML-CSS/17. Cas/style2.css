@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+  margin: auto;
+  width: 75%;
+  height: 550px;
+  background-color: #deb887;
+  display: flex;
+  /* flex-wrap: nowrap; defaultna vrednost */
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* order svojstvo je omoguceno u child kontejneru, ali je neophodno podesiti order
+svakom child kontejneru kako bi se primenilo redjanje na pravi nacin. */
+
+.box1 {
+  flex-basis: 150px;
+  height: 150px;
+  background-color: #7575ff;
+  /* order: 3; */
+}
+
+.box2 {
+  flex-basis: 150px;
+  height: 150px;
+  background-color: #7cff75;
+  /* order: 4; */
+}
+
+.box3 {
+  flex-basis: 150px;
+  height: 150px;
+  background-color: #ff7a75;
+  overflow: auto;
+  /* order: 1; */
+}
+
+.box4 {
+  flex-basis: 150px;
+  height: 150px;
+  background-color: #ffdad9;
+  /* order: 2; */
+}

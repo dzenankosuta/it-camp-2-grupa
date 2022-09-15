@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+  margin: auto;
+  width: 75%;
+  height: 550px;
+  background-color: #deb887;
+  display: flex;
+
+  /* Horizontalno poravnanje: */
+  /* justify-content: start; defaultna vrednost */
+  /* justify-content: center; */
+  /* justify-content: end; */
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+
+  /* Vertikalno poravnanje: */
+  /* align-items: flex-start; defaultna vrednost */
+  align-items: center;
+  /* align-items: end; */
+}
+
+.box1 {
+  width: 150px;
+  height: 150px;
+  background-color: #7575ff;
+  align-self: flex-start;
+}
+
+.box2 {
+  width: 150px;
+  height: 150px;
+  background-color: #7cff75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  width: 150px;
+  height: 150px;
+  background-color: #ff7a75;
+  align-self: flex-end;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: #5f4e38;
+  font-size: larger;
+}
