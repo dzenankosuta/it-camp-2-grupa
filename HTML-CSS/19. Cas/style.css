@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: #deb887;
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: #6262e1;
+}
+
+.parent:hover .child {
+  transform: translateX(250px) translateY(250px);
+}
