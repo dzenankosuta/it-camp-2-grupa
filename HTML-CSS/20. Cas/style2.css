@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  background-color: rgb(0, 0, 233);
+  height: 12vh;
+  width: 100%;
+}
+.nav .bar {
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  height: 12vh;
+}
+.nav .bar .left h1 {
+  color: white;
+}
+.nav .bar .right ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav .bar .right ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin: 15px;
+}
+.nav .bar .right button {
+  color: blue;
+  background-color: white;
+  border-radius: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.main {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+.main .icons {
+  display: flex;
+  justify-content: left;
+  width: 50%;
+  margin-left: 10%;
+  flex-wrap: wrap;
+}
+.main .icons .box1 {
+  width: 35%;
+  height: 17vw;
+  background-color: rgb(228, 226, 226);
+  margin-right: 30px;
+  margin-top: 40px;
+}
+#prva {
+  padding-left: 110px;
+  margin-top: 30px;
+}
+.main .icons .box1 h3 {
+  text-align: center;
+  padding-top: 15px;
+}
+.main .icons .box1 p {
+  text-align: center;
+  padding-top: 15px;
+}
+.main .icons .box2 {
+  width: 35%;
+  height: 17vw;
+  background-color: rgb(228, 226, 226);
+  margin-right: 30px;
+  margin-top: 70px;
+}
+#druga {
+  padding-left: 110px;
+  margin-top: 30px;
+}
+.main .icons .box2 h3 {
+  text-align: center;
+  padding-top: 15px;
+}
+.main .icons .box2 p {
+  text-align: center;
+  padding-top: 15px;
+}
+.main .icons .box3 {
+  width: 35%;
+  height: 17vw;
+  background-color: rgb(228, 226, 226);
+  margin-right: 30px;
+  margin-top: -75px;
+}
+#treca {
+  padding-left: 110px;
+  margin-top: 30px;
+}
+.main .icons .box3 h3 {
+  text-align: center;
+  padding-top: 15px;
+}
+.main .icons .box3 p {
+  text-align: center;
+  padding-top: 15px;
+}
+.main .icons .box4 {
+  width: 35%;
+  height: 17vw;
+  background-color: rgb(228, 226, 226);
+  margin-right: 30px;
+  margin-top: -45px;
+}
+#cetvrta {
+  padding-left: 110px;
+  margin-top: 30px;
+}
+.main .icons .box4 h3 {
+  text-align: center;
+  padding-top: 15px;
+}
+.main .icons .box4 p {
+  text-align: center;
+  padding-top: 15px;
+}
+.main .photo {
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.footer {
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(26, 22, 22);
+}
+.footer .top {
+  width: 100%;
+  height: 10vh;
+}
+.footer .top .circle1 {
+  height: 8vh;
+  width: 8vh;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top: 1vh;
+  left: 1vh;
+}
+.footer:hover .circle1 {
+  animation: left-to-right 3s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes left-to-right {
+  0% {
+    transform: translateX(0);
+    background-color: rgb(255, 0, 0);
+  }
+  25% {
+    transform: translateX(330px);
+    background-color: rgb(177, 27, 97);
+  }
+  50% {
+    transform: translateX(660px);
+    background-color: rgb(204, 53, 241);
+  }
+  75% {
+    transform: translateX(990px);
+    background-color: rgb(213, 130, 221);
+  }
+  100% {
+    transform: translateX(1280px);
+    background-color: rgb(245, 222, 222);
+  }
+}
+.footer .bot {
+  width: 100%;
+  height: 10vh;
+}
+.footer .bot .circle2 {
+  height: 8vh;
+  width: 8vh;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top: 1vh;
+  left: 196vh;
+}
+.footer:hover .circle2 {
+  animation: right-to-left 3s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes right-to-left {
+  0% {
+    transform: translateX(0);
+    background-color: rgb(255, 0, 0);
+  }
+  25% {
+    transform: translateX(-330px);
+    background-color: rgb(177, 27, 97);
+  }
+  50% {
+    transform: translateX(-660px);
+    background-color: rgb(204, 53, 241);
+  }
+  75% {
+    transform: translateX(-990px);
+    background-color: rgb(213, 130, 221);
+  }
+  100% {
+    transform: translateX(-1280px);
+    background-color: rgb(245, 222, 222);
+  }
+}
+
+@media (max-width: 548px) {
+  .nav {
+    background-color: rgb(0, 0, 233);
+    height: 12vh;
+    width: 100vw;
+  }
+  .nav .bar {
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 12vh;
+  }
+  .nav .bar .left h1 {
+    color: white;
+  }
+  .nav .bar .right ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .nav .bar .right ul li a {
+    text-decoration: none;
+    color: rgb(94, 44, 44);
+    font-size: 14px;
+    margin: 0px;
+  }
+  .nav .bar .right button {
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+  }
+
+  .main {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main .icons {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    margin-left: 0px;
+    flex-wrap: wrap;
+  }
+  .main .icons .box1 {
+    width: 35%;
+    height: 17vw;
+    background-color: rgb(228, 226, 226);
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  #prva {
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+  .main .icons .box1 h3 {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .main .icons .box1 p {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .main .icons .box2 {
+    width: 35%;
+    height: 17vw;
+    background-color: rgb(228, 226, 226);
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  #druga {
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+  .main .icons .box2 h3 {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .main .icons .box2 p {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .main .icons .box3 {
+    width: 35%;
+    height: 17vw;
+    background-color: rgb(228, 226, 226);
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  #treca {
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+  .main .icons .box3 h3 {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .main .icons .box3 p {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .main .icons .box4 {
+    width: 35%;
+    height: 17vw;
+    background-color: rgb(228, 226, 226);
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  #cetvrta {
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+  .main .icons .box4 h3 {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .main .icons .box4 p {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .main .photo {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+}
