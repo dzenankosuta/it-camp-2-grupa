@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  /* height: 130vh; */
+  background-color: #7fffd4;
+  display: grid;
+  /* grid-template-columns: 150px 250px; dve vrednosti predstavljaju da imamo dve kolone */
+  /* grid-template-columns: 1fr 2fr 1fr; slicno flex-grow gde se redjaju elementi tako sto ce popuniti celu sirinu parenta */
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(3, 1fr);
+
+  /* grid-template-rows: 200px 150px; svaka vrednost predstavlja visinu elemenata za taj red */
+  /* grid-auto-rows: 200px; predstavlja visinu svih redova*/
+  grid-auto-rows: minmax(150px, auto);
+
+  /* grid-gap: 15px; */
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+.box1 {
+  /* height: 150px; */
+  background-color: #deb887;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.box2 {
+  /* height: 150px; */
+  background-color: #e55252;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box3 {
+  /* height: 150px; */
+  background-color: #a85aa8;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.box4 {
+  /* height: 150px; */
+  background-color: #2e6324;
+  /* grid-column: 1/4; Jos jedan nacin zapisivanja preko grid-column svojstva */
+  grid-column: 1/-1;
+}
+
+.box5 {
+  /* height: 150px; */
+  background-color: #441717;
+  color: #7fffd4;
+  /* grid-column: span 2; Umesto dodeljivanja dve vrednosti mozemo preko span definisati koliko zelimo da zauzmemo kolona */
+  grid-column: span 2;
+}
+
+.box6 {
+  /* height: 150px; */
+  background-color: #ffed4a;
+}
+
+.box7 {
+  /* height: 150px; */
+  background-color: #878188;
+}
