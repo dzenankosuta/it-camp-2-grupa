@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#telegram {
+  font-size: 2rem;
+  color: #ff0000;
+}
+
+#car {
+  font-size: 1.3rem;
+  color: #0000ff;
+}
+
+.container p {
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.7rem;
+  font-weight: 800;
+}
