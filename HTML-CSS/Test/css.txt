@@ -1,0 +1,6 @@
+Logo - boja slova: #5777ba;
+Dugme - pozadina: #5777ba;
+Ikonice - Boja: #5777ba;
+Linkovi - boja slova: #47536e;
+Naslov - boja slova: #47536e;
+Paragraf - boja slova: #585a61;
