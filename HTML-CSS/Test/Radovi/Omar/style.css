@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.head {
+    width: 100%;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    border: 1px solid;
+    border-color: black;
+    box-shadow: 0px 0px 10px 0px rgb(104, 104, 104);
+}
+.c h2{
+    font-size: 28px;
+color:  #5777ba;
+padding-left: 60px;
+}
+
+
+nav {
+    display: flex;
+}
+
+.head ul {
+    display: flex;
+    list-style: none;
+}
+
+.head li {
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+button{
+    background-color: #5777ba   ;
+    border-radius: 2rem;
+}
+
+.parent {
+    display: flex;
+}
+
+.parent img {
+    width: 100%;
+    height: 100%;
+}
+
+.drugi h1 {
+    margin-top: 5rem;
+}
+
+.drugi li {
+    list-style: none;
+    color: #5777ba ;
+}
+
+.futer {
+    height: 8vh;
+    width: 100%;
+    background-color: #dfdbdb;
+    margin-top: 4.7rem;
+}
+
+.kralj {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+
+  .nemoze {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    background-color: #5777ba;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .kralj i {
+    font-size: 1.5rem;
+    padding-bottom: 10px; 
+  }
+
+.kralj i {
+    margin-left: 25px;
+    margin-top: 5px;
+}

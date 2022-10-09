@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.Prvo{
+    background-color: rgb(219, 218, 218);
+    height: 12vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Prvo .bar{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 12vh;
+}
+.Prvo .bar .left h1{
+    color: #5777ba;
+}
+.Prvo .bar .right ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.Prvo .bar .right ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 15px;
+}
+.Prvo .bar .right button{
+    color: #ffffff;
+    background-color: #5777ba;
+    border-radius: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.center {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.slika img {
+    width: 50%;
+    height: 60%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.center .slova {
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+#p {
+    font-style: italic;
+}
+
+.center .slova ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.center .slova ul i {
+    color: #5777ba;
+}
+
+.footer {
+    background-color: rgb(219, 218, 218);
+    height: 15vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0;
+}
+
+.footer p {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.footer .ikonice {
+    width: 35%;
+    position: relative;
+    left: 70%;
+    display: flex;
+    top: -40px;
+}
+
