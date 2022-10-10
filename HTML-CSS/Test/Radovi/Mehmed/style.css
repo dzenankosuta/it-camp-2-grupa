@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #d4d4d4 0px 0px 15px 0px;
+}
+ul {
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+header a {
+  display: flex;
+  text-decoration: none;
+  align-content: space-between;
+}
+li {
+  margin-right: 30px;
+}
+a h1 {
+  color: #5777ba;
+  margin-left: 140px;
+}
+li button {
+  margin-left: 20px;
+  position: relative;
+  bottom: 10px;
+  align-items: center;
+  padding: 11px;
+  color: #ffffff;
+  background-color: #5777ba;
+  border: none;
+  border-radius: 20px;
+}
+a {
+  color: #47536e;
+}
+.heading h2 {
+  width: 500px;
+  margin-bottom: 20px;
+}
+.main {
+  margin: 60px auto;
+  justify-content: center;
+  display: flex;
+
+  width: 1200px;
+}
+.image {
+  margin-right: 100px;
+}
+.image img {
+  width: 300px;
+}
+
+.text {
+  margin-top: 20px;
+}
+.icons {
+  color: #585a61;
+  margin-top: 20px;
+}
+.icons i {
+  color: #5777ba;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.text2 {
+  color: #585a61;
+  padding-top: 30px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: #bbbcc0;
+  display: flex;
+}
+.footer .left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.footer .left p {
+  font-size: 14px;
+  margin-left: 20px;
+}
+.footer .left a {
+  text-decoration: none;
+  color: #5777ba;
+}
+.footer .right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+.footer .right .icon1 {
+  width: 34px;
+  height: 34px;
+  background-color: #98999e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.up {
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  background-color: #5777ba;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

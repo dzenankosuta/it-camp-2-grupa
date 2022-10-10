@@ -1,0 +1,181 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #5777ba;
+}
+.header ul {
+  display: flex;
+  list-style-type: none;
+  width: 900px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  left: 200px;
+  font-size: 25px;
+  color: #47536e;
+}
+.header h1 {
+  font-size: 50px;
+  color: #5777ba;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+.dugme {
+  width: 130px;
+  height: 50px;
+  background-color: #5777ba;
+  border-radius: 25px;
+  position: absolute;
+  right: 220px;
+  top: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.header img {
+  height: 600px;
+  width: 500px;
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+
+.desno {
+  width: 800px;
+  height: 600px;
+  /* background-color: #5776ba1f; */
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+#icon {
+  margin-right: 20px;
+}
+.desno h1 {
+  font-size: 40px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  color: #47536e;
+}
+
+.desno p {
+  color: #585a61;
+  font-size: 23px;
+}
+.desno p:nth-of-type(2) {
+  position: relative;
+  right: -40px;
+}
+.desno p:nth-of-type(3) {
+  position: relative;
+  right: -40px;
+}
+.desno p:nth-of-type(4) {
+  position: relative;
+  right: -40px;
+}
+.desno p:nth-of-type(5) {
+  position: relative;
+  right: -40px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: -50px;
+  background-color: rgba(155, 147, 139, 0.788);
+}
+.footer p {
+  font-size: 17px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+.ikonice {
+  position: absolute;
+  font-size: 35px;
+  right: 50px;
+  gap: 20px;
+  display: flex;
+  top: 20px;
+  text-decoration: none;
+  color: #2b57b6;
+
+  height: 50px;
+
+  /* background-color: red; */
+}
+
+.ikonice i:nth-of-type(1) {
+  width: 50px;
+  height: 50px;
+  background-color: #5776ba36;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.ikonice i:nth-of-type(2) {
+  width: 50px;
+  height: 50px;
+  background-color: #5776ba36;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.ikonice i:nth-of-type(3) {
+  width: 50px;
+  height: 50px;
+  background-color: #5776ba36;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.ikonice i:nth-of-type(4) {
+  width: 50px;
+  height: 50px;
+  background-color: #5776ba36;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.ikonice i:nth-of-type(5) {
+  width: 50px;
+  height: 50px;
+  background-color: #5776ba36;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
