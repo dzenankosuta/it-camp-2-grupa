@@ -1,0 +1,165 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  background-color: #fff;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+}
+.nesto {
+  width: 100%;
+}
+.nekad {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav a {
+  text-decoration: none;
+  color: #47536e;
+}
+.nav li {
+  margin-left: 1.2rem;
+}
+.nav button {
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  align-items: center;
+  background-color: #5777ba;
+  color: #fff;
+  border-color: transparent;
+}
+nav {
+  display: flex;
+}
+.trud h2 {
+  color: #5777ba;
+}
+.nesto {
+  height: 8vh;
+  border: 1px solid;
+  border-color: transparent;
+  box-shadow: 0px 0px 10px #969494;
+  margin-bottom: 100px;
+}
+.sekcija {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh;
+}
+.slika img {
+  height: 60vh;
+}
+.v3 h1 {
+  color: #47536e;
+  margin-bottom: 10px;
+}
+.v3 {
+  margin-left: 30px;
+}
+.v3 p {
+  font-style: italic;
+  color: #585a61;
+  margin-bottom: 2rem;
+}
+.v3 ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 3rem;
+}
+.v3 i {
+  color: #5777ba;
+  margin-right: 0.8rem;
+}
+.v3 li {
+  margin-bottom: 1.5rem;
+}
+.foot {
+  margin-top: 35px;
+}
+.foot {
+  height: 10vh;
+  width: 100%;
+  background-color: #dfdbdb;
+  margin-top: 4.7rem;
+}
+.misljenje {
+  display: flex;
+  margin-left: 10px;
+  padding-top: 1rem;
+  height: 100%;
+}
+.misljenje i {
+  margin-right: 5px;
+}
+.misljenje p {
+  line-height: 1.5rem;
+}
+.omar {
+  justify-content: flex-end;
+  display: flex;
+  width: 80%;
+}
+.misljenje .omar {
+  justify-items: flex-end;
+}
+.omar i {
+  border: 1px solid;
+  background-color: #aca8a8;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.omar {
+  align-items: center;
+}
+.misljenje a {
+  text-decoration: none;
+  color: #5777ba;
+}
+.nemoze {
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  background-color: #5777ba;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.nemoze i {
+  color: #fff;
+}
+.v3 li .evega {
+  background-color: #164bbd;
+}

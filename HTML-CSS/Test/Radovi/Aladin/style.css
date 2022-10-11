@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(104, 100, 100);
+}
+.nav .left {
+  padding-left: 10%;
+}
+.nav .left h1 {
+  font-size: 24px;
+  color: #5777ba;
+  cursor: pointer;
+}
+.nav .right {
+  padding-right: 10%;
+}
+.nav .right ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav .right ul li a {
+  color: #47536e;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.nav .right button {
+  background-color: #5777ba;
+  padding: 8px 12px;
+  border-radius: 25px;
+  border: 0px;
+  cursor: pointer;
+  color: #fff;
+}
+.main {
+  height: 80vh;
+  display: flex;
+}
+.main .left {
+  width: 30%;
+}
+.main .left img {
+  width: 80%;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.main .right {
+  width: 60%;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.main .right h1 {
+  font-size: 27px;
+  color: #47536e;
+  font-weight: 700;
+}
+.main .right p {
+  margin-top: 10px;
+  color: #585a61;
+}
+#icon {
+  color: #5777ba;
+}
+.main .right .span1 {
+  display: flex;
+  align-items: center;
+  color: #585a61;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.main .right .span2 {
+  display: flex;
+  align-items: center;
+  color: #585a61;
+  font-size: 17px;
+  margin-top: 20px;
+}
+#gore {
+  background-color: blue;
+  color: #fff;
+}
+.main .right span {
+  margin-left: 10px;
+}
+.main .right p:nth-of-type(2) {
+  margin-top: 20px;
+  color: #585a61;
+}
+.footer {
+  height: 10vh;
+  width: 100%;
+  background-color: #bbbcc0;
+  display: flex;
+}
+.footer .left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.footer .left p {
+  font-size: 14px;
+  margin-left: 20px;
+}
+.footer .left a {
+  text-decoration: none;
+  color: #5777ba;
+}
+.footer .right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+.footer .right .icon1 {
+  width: 34px;
+  height: 34px;
+  background-color: #98999e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.up {
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  background-color: #5777ba;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#uphere {
+  color: #fff;
+}

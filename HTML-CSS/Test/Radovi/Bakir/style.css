@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+}
+header:hover {
+  transition: 1s ease 0.2s;
+  transform: scale(1, 1.1);
+}
+header h2 {
+  padding-top: 1.3rem;
+  padding-left: 6rem;
+  color: #5777ba;
+}
+header ul {
+  padding-top: 1.7rem;
+  margin-left: 30rem;
+  gap: 1.5rem;
+  color: #47536e;
+  display: flex;
+  list-style-type: none;
+  /* align-items: flex-end; */
+}
+header li {
+  display: flex;
+}
+header button {
+  border: 1px solid #5777ba;
+  border-radius: 2rem;
+  color: white;
+  background-color: #5777ba;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  width: 8rem;
+  height: 2.5rem;
+}
+header a {
+  text-decoration: none;
+  color: #5777ba;
+}
+.main {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+}
+.main img {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  height: 80%;
+  width: 30%;
+}
+.main .box2 {
+  margin-left: 2rem;
+}
+.main .box2 h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 45rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 10rem;
+}
+.main .box2 p {
+  margin-bottom: 2rem;
+  color: #585a61;
+  width: 55rem;
+  font-style: italic;
+}
+.box2 i {
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: #5777ba;
+  margin-top: 1rem;
+}
+.box2 span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3rem;
+}
+#drugi {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: black;
+  font-style: normal;
+}
+footer {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background-color: gainsboro;
+}
+#plavo {
+  font-weight: 300;
+  color: white;
+  background-color: blue;
+}
+footer i {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+}
+footer span {
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+}
+footer h5 {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+footer h5 a {
+  font-weight: 700;
+  text-decoration: none;
+}
+footer h5 {
+  font-weight: 300;
+}
+footer .ikone {
+  display: flex;
+}
+.tviter {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 63rem;
+  border-radius: 10rem;
+  background-color: rgb(192, 191, 191);
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.tviter i {
+  margin-left: -0.8rem;
+  margin-top: -0.9rem;
+}
+.tviter:hover {
+  border-radius: 2px black solid;
+  transition: 1s ease;
+  background-color: white;
+  color: gray;
+}
+.fb {
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 10rem;
+  background-color: rgb(192, 191, 191);
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.fb i {
+  margin-left: -0.8rem;
+  margin-top: -0.9rem;
+}
+.fb:hover {
+  border-radius: 2px black solid;
+  transition: 1s ease;
+  background-color: white;
+  color: gray;
+}
+.insta {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 10rem;
+  background-color: rgb(192, 191, 191);
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.insta:hover {
+  border-radius: 2px black solid;
+  transition: 1s ease;
+  background-color: white;
+  color: gray;
+}
+.insta i {
+  margin-left: -0.8rem;
+  margin-top: -0.9rem;
+}
+.skype {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 10rem;
+  background-color: rgb(192, 191, 191);
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.skype:hover {
+  border-radius: 2px black solid;
+  transition: 1s ease;
+  background-color: white;
+  color: gray;
+}
+.skype i {
+  margin-left: -0.8rem;
+  margin-top: -0.9rem;
+}
+.in i {
+  margin-left: -0.6rem;
+  margin-top: -0.9rem;
+}
+.in:hover {
+  border-radius: 2px black solid;
+  transition: 1s ease;
+  background-color: white;
+  color: gray;
+}
+.in {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 10rem;
+  background-color: rgb(192, 191, 191);
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.main img:hover {
+  transition: 1s ease-in-out;
+  transform: scale(1.1);
+}
