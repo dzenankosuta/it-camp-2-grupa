@@ -1,0 +1,100 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 8vh;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 3px 0 rgb(162, 160, 160);
+}
+
+.header li {
+  display: inline-block;
+  color: #47536e;
+  margin: 10px;
+  position: relative;
+  left: 40%;
+}
+.header h1 {
+  color: #5777ba;
+}
+.header button {
+  background-color: #5777ba;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+}
+.main {
+  height: 84vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.main img {
+  width: 400px;
+  height: 400px;
+}
+.main .maindesna h1 {
+  color: #47536e;
+  margin-bottom: 15px;
+}
+.main p {
+  color: #585a61;
+  margin-bottom: 15px;
+}
+.main li {
+  color: #47536e;
+  margin: 15px 0 15px -5px;
+}
+.main .maindesna {
+  margin-left: 40px;
+}
+.main .fa-arrow-up {
+  position: relative;
+  top: 35%;
+  right: -40px;
+  background-color: #5777ba;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(197, 190, 190);
+}
+.footer .footerleva .footertext {
+  display: flex;
+}
+.footer .footerleva .footertext p {
+  margin: 4px;
+}
+.footer .footertext p:nth-last-of-type(1) {
+  color: #5777ba;
+}
+.footer .footerleva {
+  margin-left: 15px;
+}
+.footer .footerdesna {
+  margin-right: 15px;
+}
+.footer .footerdesna .fa {
+  color: #5777ba;
+  background-color: #939499;
+  padding: 10px;
+  border-radius: 100%;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.footer .footerdesna .fa-facebook {
+  padding-left: 15px;
+  padding-right: 15px;
+}
