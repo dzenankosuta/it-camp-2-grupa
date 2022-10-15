@@ -61,4 +61,77 @@ prom1 = 54; // inicijalizacija (dodela vrednosti) promenljive
 // 6. null - je tip podatka za nepostojecu promenljivu ili za promenljivu
 // kojoj smo dodelili nekorektnu vrednost.
 
+skola = null
 console.log(skola)
+console.log(typeof skola) // rezultat je Object
+
+// 7. Symbol - Novi tip podatka u JavaScriptu koji se koristi za dodeljivanje
+//  jedinstvene ili anonimne vrednosti.
+
+x = Symbol("Danas je lepo vreme.")
+console.log(x)
+y = Symbol("Danas je lepo vreme.")
+console.log(y)
+
+console.log(x === y) // razlikuju se
+
+// Primitivni tipovi podataka se koriste kada imamo promenljivu (varijablu),
+// sa samo jednom vrednoscu.
+
+// NEPRIMITIVNI TIPOVI PODATAKA //
+
+// Za promenljive (varijable) koje mogu skladistiti vise vrednosti, ili neke
+// kompleksne vrednosti se koriste neprimitivni tipovi podataka. 
+
+// Kada ispitujemo tio podatka za neku neprimitivnu promenljivu u JavaScriptu
+// dobijamo Object za tip.
+
+// 1. Nizovi (Arrays) - neprimitivni tip podatka koji sluzi za skladistenje vise
+// vrednosti. 
+// U JavaScriptu niz moze sadrzati elemente razlicitog tipa.
+
+niz1 = ["Mitar", "Dzenan", "Haris", "Hamed", "Nikola"]
+console.log(niz1)
+
+niz2 = ["Hamed", 15, false]
+console.log(niz2)
+
+// Jos jedan nacin definisanja niza:
+niz3 = new Array("Mitar", "Dzenan", "Haris", "Hamed", "Nikola")
+console.log(niz3)
+
+// 2. Objekti (Objects) - su GLAVNI NEPRIMITIVNI TIP PODATKA U JAVASCRIPTU.
+// Objekti se zapisuju po principu name:value pair (ime:vrednost par).
+
+obj1 = {
+  ime: "Mehmed",
+  prezime: "Kucevic",
+  godine: 15,
+  skola: "Dva Heroja",
+  punoletnost: false
+}
+console.log(obj1.godine)
+
+obj2 = new Object({
+ime: "Amer",
+prezime: "Honic",
+godine: 19,
+skola: "DUNP",
+punoletnost: true})
+
+console.log(obj2.skola)
+
+
+// 3. Setovi (Sets) - slicni nizovima sa razlikom da set ne moze da sadrzi duplikate.
+
+set1 = new Set(["Alen", "Hasan", "Miona", "Amir", "Alen"]) // nisu dozvoljeni duplikati
+console.log(set1)
+
+// 4. Mape (Maps) - su slicni objektima, sa nesto drugacijim nacinom definisanja.
+
+map1 = new Map([
+  ["jabuke", 50],
+  ["kruske", 60],
+  ["jagode", 80]
+])
+console.log(map1)
