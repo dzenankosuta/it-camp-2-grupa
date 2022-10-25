@@ -183,3 +183,19 @@ prom1 > 0 || prom2 > 0 || prom3 > 0
 //  5.3  !  - not (okrece vrednost => iz true u false i obratno)
 
 console.log(!Boolean(prviDeo + " " + drugiDeo));
+
+//  6. Tip operatori (Type operators).
+
+// 6.1   typeof se koristi za ispitivanje tipa odredjene promenljive.
+
+isSunny = false;
+console.log(typeof isSunny);
+
+// 6.2  instanceof - za proveru da li je neka promenljiva instanca objekta npr.
+
+const obj = {
+  ime: "Omar",
+  prezime: "Semsovic",
+};
+
+console.log(obj instanceof Object);
