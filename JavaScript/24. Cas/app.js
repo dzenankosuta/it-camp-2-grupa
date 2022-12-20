@@ -116,3 +116,61 @@ console.log(Number({})); // NaN
 // Napraviti funkciju koja ocekuje cetvorocifren broj, a vraca broj kojem su zamenjene prva i treca cifra, kao i druga i cetvrta cifra.
 // 4752
 // 5247
+
+// 2. parseInt() - analizira argument i vraca nam ceo broj ako je moguce.
+
+console.log(parseInt("23")); // 23
+console.log(typeof parseInt("23")); //  number
+
+// Krajnji razmaci ne prave problem.
+console.log(parseInt(" 23    ")); // 23
+
+console.log(parseInt("23+5")); // 23
+
+// Razmaci jesu dozvoljeni kod parseInt() metode. S tim sto se uzima u obzir samo prvi broj koji se pojavljuje.
+console.log(parseInt("23 56")); // 23
+
+console.log(parseInt("ReC23 56")); // NaN
+
+console.log(parseInt("23,78")); // 23
+
+console.log(parseInt("23.78")); // 23 (odstranjuje decimalni ostatak)
+
+console.log(parseInt("adf")); // NaN
+
+console.log(parseInt(true)); // NaN
+
+console.log(parseInt(false)); // NaN
+
+console.log(parseInt([])); // NaN
+
+console.log(parseInt({})); // NaN
+
+// 2. parseFloat() - analizira argument i vraca realni broj sa decimalnim zapisom ili bez ako je moguce.
+
+console.log(parseFloat("23")); // 23
+console.log(typeof parseFloat("23")); //  number
+
+// Krajnji razmaci ne prave problem.
+console.log(parseFloat(" 23.55    ")); // 23.55
+
+console.log(parseFloat("23+5")); // 23
+
+// Razmaci jesu dozvoljeni kod parseFloat() metode. S tim sto se uzima u obzir samo prvi broj koji se pojavljuje.
+console.log(parseFloat("23.25 56")); // 23
+
+console.log(parseFloat("ReC23 56")); // NaN
+
+console.log(parseFloat("23,78")); // 23
+
+console.log(parseFloat("23.78")); // 23 (odstranjuje decimalni ostatak)
+
+console.log(parseFloat("adf")); // NaN
+
+console.log(parseFloat(true)); // NaN
+
+console.log(parseFloat(false)); // NaN
+
+console.log(parseFloat([])); // NaN
+
+console.log(parseFloat({})); // NaN
