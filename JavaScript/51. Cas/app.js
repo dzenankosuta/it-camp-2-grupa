@@ -27,8 +27,8 @@ funkcija(["ab", "a", "abc"]);
 
 // const sortArray = (sampleArray) => {
 //   sampleArray.sort((first, second) => {
-//     if (first.length > second.length) return -1;
-//     return 1;
+//     if (first.length > second.length) return 1;
+//     return -1;
 //   });
 // };
 const sortArray = (sampleArray) => {
