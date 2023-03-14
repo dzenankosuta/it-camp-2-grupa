@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: chocolate;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
