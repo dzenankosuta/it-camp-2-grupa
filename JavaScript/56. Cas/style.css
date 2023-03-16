@@ -3,10 +3,34 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 header {
-  background-color: chocolate;
+  background-color: #d2691e;
   height: 15vh;
   display: flex;
   justify-content: space-between;
   padding: 2rem;
+}
+
+.container {
+  margin: 50px auto;
+  padding: 15px;
+  width: 80%;
+  height: 400px;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+
+#subtitle {
+  margin: 20px;
+}
+
+li {
+  list-style: none;
+  width: 100%;
+  border: 1px solid grey;
+  padding: 15px;
 }
