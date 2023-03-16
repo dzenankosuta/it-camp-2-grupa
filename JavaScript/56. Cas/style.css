@@ -34,3 +34,10 @@ li {
   border: 1px solid grey;
   padding: 15px;
 }
+
+.newDiv {
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  background-color: #d2691e;
+}
